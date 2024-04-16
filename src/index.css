@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "Inter", sans-serif;
+}
+
+.navbar{
+  background: linear-gradient(120deg, #6C36FF, #A07DFF);
+}
+
+.slider{
+  background: url(./assets/SliderBg.png) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box1Image{
+  background: url(./assets/box1Image.png);
+  height: 216px;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.box2Image{
+  background: url(./assets/box2Image.png);
+  height: 216px;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.box3Image{
+  background: url(./assets/box3Image.png);
+  height: 216px;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.eventquality{
+  background: url(./assets/Group.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.scannergradient{
+  background: linear-gradient(120deg, #6C36FF, #A07DFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.trackingBg{
+  background: linear-gradient( white, #F1F3FF);
+}
